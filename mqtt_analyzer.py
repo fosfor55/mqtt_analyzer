@@ -48,6 +48,7 @@ class MQTTSecurityAnalyzer:
             if rc is not None:
                 connected = True
             client.disconnect()
+
         client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
         client.on_connect = on_connect
 
