@@ -1,5 +1,4 @@
 @echo off
-chcp 65001 >nul
 echo paho-mqtt installing
 
 if exist ".venv\Scripts\activate.bat" (
@@ -12,9 +11,7 @@ if exist ".venv\Scripts\activate.bat" (
     call .venv\Scripts\activate.bat
 )
 
-echo.
 echo Installing paho-mqtt...
-echo.
 
 pip install paho-mqtt
 
