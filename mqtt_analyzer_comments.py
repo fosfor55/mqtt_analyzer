@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 ================================================================================
 MQTT Security Analyzer for IoT Networks
