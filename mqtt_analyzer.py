@@ -7,6 +7,8 @@ import ssl
 import json
 import paho.mqtt.client as mqtt
 
+
+
 class MQTTSecurityAnalyzer:
     def __init__(self, target, port=1883, timeout=3):
         self.target = target
